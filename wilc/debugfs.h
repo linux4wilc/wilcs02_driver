@@ -8,6 +8,7 @@
 #define WILC_DEBUGFS_H
 
 #include <linux/kern_levels.h>
+#include <linux/version.h>
 
 #define GENERIC_DBG		BIT(0)
 #define HOSTAPD_DBG		BIT(1)
@@ -45,6 +46,9 @@ extern atomic_t WILC_DEBUG_REGION;
 #define PRINT_ER(netdev, format, ...) netdev_err(netdev, "ERR [%s:%d] "format,\
 	__func__, __LINE__, ##__VA_ARGS__)
 
+#ifdef WILC_DEBUGFS
 int wilc_debugfs_init(void);
 void wilc_debugfs_remove(void);
+#endif
+
 #endif /* WILC_DEBUGFS_H */
