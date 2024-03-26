@@ -5,13 +5,11 @@
 
 Microcip Embedded Wi-Fi® is a family of self-contained, low power and certified modules bringing wireless internet connectivity.
 
-**[ATWILC1000](http://www.microchip.com/wwwproducts/en/ATWILC1000)** is IEEE 802.11 b/g/n/ IOT link controller utilizing highly optimized 802.11 and provides mulitple peripheral interfaces like SPI, and SDIO.  
+**[WILCS02](http://www.microchip.com/wwwproducts/en/WILCS02)** is IEEE 802.11 b/g/n/ IOT link controller utilizing highly optimized 802.11 and provides mulitple peripheral interfaces like SPI, and SDIO.  
 
-**[ATWILC3000](http://www.microchip.com/wwwproducts/en/ATWILC3000)** is IEEE 802.11 b/g/n/BT4.0 IOT link controller utilizing highly optimized 802.11-Bluetooth coexistence protocol and provides mulitple peripheral interfaces like UART, SPI, and SDIO.
+This is the unified driver source for wilc1000, wilc3000 & wilcs02 chipsets.
 
-This is the unified driver source for wilc1000 & wilc3000 chipsets.
-
-Refer to the [Wi-Fi Link Controller Linux User Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/ATWILC1000-ATWILC3000-Wi-Fi-Link-Controller-Linux-User-Guide-DS70005328C.pdf) for information on how to use the wireless devices on linux and the [Wi-Fi Link Controller Linux Release Notes](http://ww1.microchip.com/downloads/en/DeviceDoc/Wi-Fi%20Link%20Controller%20Linux%20Driver%20Release%20Notes%20v15.2.pdf) for the latest release notes and revision history.
+Refer to the[Link] for information on how to use the wireless devices on linux and the <Link> for the latest release notes and revision history.
 
 For more information on Microchip Embedded Wi-Fi®, visit [Microchip Embedded Wi-Fi®](http://www.microchip.com/design-centers/wireless-connectivity/embedded-wi-fi).
 
