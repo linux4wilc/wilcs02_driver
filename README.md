@@ -2,7 +2,6 @@
 
 <a href="http://www.microchip.com/design-centers/wireless-connectivity/embedded-wi-fi"><img src="http://www.microchip.com/_images/logo.png" align="left" hspace="10" vspace="6"></a>
 </br></br></br>
-
 Microcip Embedded Wi-Fi® is a family of self-contained, low power and certified modules bringing wireless internet connectivity.
 
 **[WILCS02](http://www.microchip.com/wwwproducts/en/WILCS02)** is IEEE 802.11 b/g/n/ IOT link controller utilizing highly optimized 802.11 and provides mulitple peripheral interfaces like SPI, and SDIO.  
@@ -70,8 +69,4 @@ WPA/WPA2 enterprise security</li>
    <li>Wake-up host on wireless LAN events</li>
   </ul>
  </li>
- <li><b>RF version number 01.1</b>
- </li>
-Note: RF version number format is xx.y, where xx: "Major" and y: "Minor".
-Changes in Major number requires re-tests and possibly re-certification.
 </ol>
