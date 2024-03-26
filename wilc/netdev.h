@@ -17,6 +17,7 @@
 #include "hif.h"
 #include "wlan.h"
 #include "wlan_cfg.h"
+#include "wilcs02_loopback.h"
 
 extern int wait_for_recovery;
 
@@ -223,8 +224,8 @@ struct wilc_vif {
 };
 
 struct wilc_power_gpios {
-	int reset;
-	int chip_en;
+	struct gpio_desc *chip_en;	/* CHIP_EN GPIO or NULL */
+	struct gpio_desc *reset;	/* RESET GPIO or NULL */
 };
 
 struct wilc_power {
@@ -280,6 +281,8 @@ struct wilc {
 
 	int quit;
 
+	bool is_mmc_spi;
+
 	/* lock to protect issue of wid command to firmware */
 	struct mutex cfg_cmd_lock;
 	struct wilc_cfg_frame cfg_frame;
@@ -303,6 +306,7 @@ struct wilc {
 	struct device *dt_dev;
 
 	enum wilc_chip_type chip;
+	struct wilc_vmm_ctl vmm_ctl;
 	struct wilc_power power;
 	uint8_t keep_awake[DEV_MAX];
 	struct mutex cs;
@@ -326,6 +330,10 @@ struct wilc_wfi_mon_priv {
 	struct net_device *real_ndev;
 };
 
+#ifdef WILC_S02_TEST_BUS_INTERFACE
+extern bool is_test_mode;
+#endif
+
 void wilc_frmw_to_host(struct wilc_vif *vif, u8 *buff, u32 size,
 		       u32 pkt_offset, u8 status);
 void wilc_mac_indicate(struct wilc *wilc);
@@ -338,5 +346,6 @@ struct wilc_vif *wilc_netdev_ifc_init(struct wilc *wl, const char *name,
 				      bool rtnl_locked);
 int wilc_bt_power_up(struct wilc *wilc, int source);
 int wilc_bt_power_down(struct wilc *wilc, int source);
-
+int wilc_s02_reset_firmware(struct wilc *wilc, u32 type);
+int wilc_s02_check_firmware_download(struct wilc *wl);
 #endif

@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: GPL-2.0
 ccflags-y += -I$(src)/ -DWILC_ASIC_A0 -DWILC_DEBUGFS
 
-wilc-objs := wilc_wfi_cfgoperations.o wilc_netdev.o wilc_mon.o \
-			wilc_hif.o wilc_wlan_cfg.o wilc_debugfs.o \
-			wilc_wlan.o sysfs.o wilc_bt.o
+wilc-objs := cfg80211.o wlan.o wlan_cfg.o \
+			hif.o mon.o netdev.o \
+			bt.o sysfs.o debugfs.o power.o wilcs02_loopback.o
 
 obj-$(CONFIG_WILC_SDIO) += wilc-sdio.o
 wilc-sdio-objs += $(wilc-objs)
