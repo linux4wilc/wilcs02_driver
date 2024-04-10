@@ -17,15 +17,15 @@ The ATWILC module supports the following features.
  <li><b>Wi-Fi Station (STA)</b>
   <ul>
    <li>IEEE 802.11 b/g/n</li>
-   <li>Open, Wi-Fi Protected Access (WPA)/WPA2 personal and WPA/WPA2 enterprise security</li>
-   <li>WPA3
+   <li>Open, Wi-Fi Protected Access WPA/WPA2/WPA3 personal, WPA/WPA2/WPA3 enterprise security</li>
+   <li>Protected Management Frames(PMF)</li>
   </ul>
  </li>
  <li><b>Wi-Fi Access Point (AP)</b>
   <ul>
    <li>IEEE 802.11 b/g/n</li>
-   <li>Open, WPA/WPA2 personal and WPA/WPA2 enterprise security</li>
-   <li>WPA3
+   <li>Open, Wi-Fi Protected Access WPA/WPA2/WPA3 personal, WPA/WPA2/WPA3 enterprise security </li>
+   <li>WPA3</li>
    <li>Supports eight stations</li>
   </ul></li>
  <li><b>Wi-Fi Protected Setup (WPS)</b>
@@ -34,6 +34,16 @@ The ATWILC module supports the following features.
    <li>PIN code</li>
   </ul>
  </li>
- <li><b>802.11 Power save</b>
- </li>
+ <li><b>802.11 Power save</li></b>
+ <li><b>Wi-Fi Station (STA)</b></li>
+<li><b>Firmware Download</b></li>
+  <ul>
+   <li>Firmware Sideloading</li>
+   <li>Device Firmware Upgrade(DFU)</li>
+  </ul>
+  <li><b>SDIO Bus Interface</b></li>
+  <ul>
+   <li>SD 4-Bit (upto 50 MHz)</li>
+   <li>SPI (upto 40MHz) - Driver support over MMC-SPI</li>
+  </ul>
 </ol>
