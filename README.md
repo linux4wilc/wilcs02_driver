@@ -25,7 +25,7 @@ The ATWILC module supports the following features.
   <ul>
    <li>IEEE 802.11 b/g/n</li>
    <li>Open, Wi-Fi Protected Access WPA/WPA2/WPA3 personal, WPA/WPA2/WPA3 enterprise security </li>
-   <li>WPA3</li>
+   <li>Protected Management Frames(PMF)</li>
    <li>Supports eight stations</li>
   </ul></li>
  <li><b>Wi-Fi Protected Setup (WPS)</b>
