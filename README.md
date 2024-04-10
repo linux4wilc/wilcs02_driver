@@ -4,11 +4,9 @@
 </br></br></br>
 Microchip Embedded Wi-Fi® is a family of self-contained, low power and certified modules bringing wireless internet connectivity.
 
-**[WILCS02](http://www.microchip.com/wwwproducts/en/WILCS02)** is IEEE 802.11 b/g/n/ IOT link controller utilizing highly optimized 802.11 and provides mulitple peripheral interfaces like SPI, and SDIO.  
+**[WILCS02](https://ww1.microchip.com/downloads/aemDocuments/documents/WSG/ProductDocuments/UserGuides/WILCS02-Wi-Fi-Link-Controller-SD-Board-User-Guide-DS50003655.pdf)** is IEEE 802.11 b/g/n/ IOT link controller utilizing highly optimized 802.11 and provides mulitple peripheral interfaces like SPI, and SDIO.  
 
 This is the unified driver source for wilc1000, wilc3000 & wilcs02 chipsets.
-
-Refer to the[Link] for information on how to use the wireless devices on linux and the <Link> for the latest release notes and revision history.
 
 For more information on Microchip Embedded Wi-Fi®, visit [Microchip Embedded Wi-Fi®](http://www.microchip.com/design-centers/wireless-connectivity/embedded-wi-fi).
 
