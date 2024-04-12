@@ -10,7 +10,7 @@ This is the unified driver source for wilc1000, wilc3000 & wilcs02 chipsets.
 
 For more information on Microchip Embedded Wi-Fi®, visit [Microchip Embedded Wi-Fi®](http://www.microchip.com/design-centers/wireless-connectivity/embedded-wi-fi).
 
-<h1>ATWILC Features</h1>
+<h1>WILCS02 Features</h1>
 
 The WILCS02 module supports the following features.
 <ol type="1">
