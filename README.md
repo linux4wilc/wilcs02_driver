@@ -12,7 +12,7 @@ For more information on Microchip Embedded Wi-Fi®, visit [Microchip Embedded Wi
 
 <h1>ATWILC Features</h1>
 
-The ATWILC module supports the following features.
+The WILCS02 module supports the following features.
 <ol type="1">
  <li><b>Wi-Fi Station (STA)</b>
   <ul>
